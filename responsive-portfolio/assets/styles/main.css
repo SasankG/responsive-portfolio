@@ -1,0 +1,692 @@
+
+
+.headerMain {
+    top:100%;
+    padding-bottom:135px;
+    width:100%;
+    background-color: white;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.headerContent {
+    margin:0px auto;
+    width:960px;
+}
+
+#myName {
+    
+    padding:20px;
+    background-color: #4aaaa5;
+   color:white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: absolute;
+    left:20%;
+}
+
+html {
+    background-image:url(../images/rockywall.png);
+}
+
+.navButtons {
+    line-height: 6.5em;
+    font-family: 'Arial';
+    max-width: 80%;
+    text-align: right;
+}
+
+#about {
+    text-decoration: none;
+    color: #777777;
+    float:right;
+}
+
+#contact {
+    text-decoration: none;
+    color: #777777;
+    float:right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#Portfolio {
+    text-decoration: none;
+    color:#777777;
+    float:right;
+}
+
+footer {
+    height: 60px;
+    width: 100%;border-top: 10px solid#4aaaa5;
+    margin-top: 70px;
+    margin-right: auto;
+    background-color:grey;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    float:left;
+    
+}
+
+#copyright {
+    line-height: 4em;
+    font-size: 12px;
+    font-family: 'Arial';
+    text-align: center;
+    color:white;
+}
+
+.bodyMain {
+    
+}
+
+#bodyContent {
+    line-height: 3em;
+    padding: 10px 10px 45px 30px;
+    margin-top: 10px;
+    margin-left: 19.5%;
+    max-width: 930px;
+    background-color: white;
+    border: 1px solid #D3D3D3;
+}
+
+.aboutMe {
+    padding:0px;
+    color: #4aaaa5;
+    font-family: 'Georgia';
+    font-size: 29px;
+}
+
+
+
+#myBio {
+    max-width: 800px;
+    margin-left: 0px;
+    padding-left: 10px;
+    color: #777777;
+    font-family: 'Arial';
+    font-size: 14px;
+    line-height: 40px;
+}
+
+#img {
+    padding:10px;
+    float:left;
+}
+
+svg {
+    position: absolute;
+}
+.contact {
+    padding:0px;
+    color: #4aaaa5;
+    font-family: 'Georgia';
+    font-size: 25px;
+}
+
+
+
+#myBio {
+    max-width: 800px;
+    margin-left: 0px;
+    padding-left: 10px;
+    color: #777777;
+    font-family: 'Arial';
+    font-size: 14px;
+    line-height: 40px;
+}
+
+
+textarea {
+    width: 900px;
+}
+
+input {
+    width: 900px;
+}
+
+label {
+    font-family: 'Arial';
+    color: #777777;
+    font-size: 12pt;
+}
+
+#button {
+    padding:15px 85px 15px 25px;
+    float:left;
+    width:90px;
+    font-family: 'Arial';
+    background-color:#4aaaa5; 
+    color:white;
+    font-size: 14pt;
+    border:none;
+}
+#bodyContent2 {
+    line-height: 3em;
+    padding: 10px 10px 65px 30px;
+    margin-top: 10px;
+    margin-left: 19.5%;
+    max-width: 930px;
+    background-color: white;
+    border: 1px solid #D3D3D3;
+}
+#picOne {
+    
+}
+
+#picTwo {
+    height: 200px;
+    width: 200px;
+}
+
+#picThree {
+    height: 200px;
+    width:200px;
+}
+
+#picFour {
+    height: 200px;
+    width:200px;
+}
+
+.imageContainer {
+    max-width: 600px;
+}
+
+.hangman {
+    height: 200px;
+    width:200px;
+    overflow: hidden;
+    float: left;
+    margin-top: 20px;
+}
+
+.rutgers {
+    height: 200px;
+    width:200px;
+    overflow: none;
+    float: left;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.tech {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    float: left;
+    margin-top: 60px;
+}
+
+.laptop {
+    height: 200px;
+    width:200px;
+    overflow: hidden;
+    float: left;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+#text1 {
+    position: absolute;
+    padding: 1px 70px 1px 70px;
+    margin-top: 130px;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+}
+
+#text2 {
+    position: absolute;
+    padding: 1px 40px 1px 40px;
+    margin-top: 130px;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+}
+#bodyContent3 {
+    line-height: 3em;
+    padding: 10px 10px 600px 30px;
+    margin-top: 10px;
+    margin-left: 19.5%;
+    max-width: 930px;
+    background-color: white;
+    border: 1px solid #D3D3D3;
+}
+.portfolio2 {
+    padding:0px;
+    color: #4aaaa5;
+    font-family: 'Georgia';
+    font-size: 25px;
+}
+
+.hover:hover {
+    background-color: whitesmoke;
+}
+
+@media only screen and (max-width:980px){
+    .headerMain {
+    top:100%;
+    padding-bottom:135px;
+    width:100%;
+    background-color: white;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.headerContent {
+    margin:0px auto;
+    width:960px;
+}
+
+#myName {
+    
+    padding:20px;
+    background-color: #4aaaa5;
+   color:white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: absolute;
+    left:20%;
+}
+
+html {
+    background-image:url(../images/rockywall.png);
+}
+
+.navButtons {
+    line-height: 6.5em;
+    font-family: 'Arial';
+    max-width: 80%;
+    text-align: right;
+}
+
+#about {
+    text-decoration: none;
+    color: #777777;
+    float:right;
+}
+
+#contact {
+    text-decoration: none;
+    color: #777777;
+    float:right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#Portfolio {
+    text-decoration: none;
+    color:#777777;
+    float:right;
+}
+
+footer {
+    height: 60px;
+    width: 100%;border-top: 10px solid#4aaaa5;
+    margin-top: 70px;
+    margin-right: auto;
+    background-color:grey;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    float:left;
+    
+}
+
+#copyright {
+    line-height: 4em;
+    font-size: 12px;
+    font-family: 'Arial';
+    text-align: center;
+    color:white;
+}
+
+.bodyMain {
+    
+}
+
+#bodyContent {
+    line-height: 3em;
+    padding: 10px 10px 45px 30px;
+    margin-top: 10px;
+    margin-left: 19.5%;
+    max-width: 930px;
+    background-color: white;
+    border: 1px solid #D3D3D3;
+}
+
+.aboutMe {
+    padding:0px;
+    color: #4aaaa5;
+    font-family: 'Georgia';
+    font-size: 29px;
+}
+
+
+
+#myBio {
+    max-width: 800px;
+    margin-left: 0px;
+    padding-left: 10px;
+    color: #777777;
+    font-family: 'Arial';
+    font-size: 14px;
+    line-height: 40px;
+}
+
+#img {
+    padding:10px;
+    float:left;
+}
+
+svg {
+    position: absolute;
+}
+.contact {
+    padding:0px;
+    color: #4aaaa5;
+    font-family: 'Georgia';
+    font-size: 25px;
+}
+
+
+
+#myBio {
+    max-width: 800px;
+    margin-left: 0px;
+    padding-left: 10px;
+    color: #777777;
+    font-family: 'Arial';
+    font-size: 14px;
+    line-height: 40px;
+}
+
+
+textarea {
+    width: 900px;
+}
+
+input {
+    width: 900px;
+}
+
+label {
+    font-family: 'Arial';
+    color: #777777;
+    font-size: 12pt;
+}
+
+#button {
+    padding:15px 85px 15px 25px;
+    float:left;
+    width:90px;
+    font-family: 'Arial';
+    background-color:#4aaaa5; 
+    color:white;
+    font-size: 14pt;
+    border:none;
+}
+#bodyContent2 {
+    line-height: 3em;
+    padding: 10px 10px 65px 30px;
+    margin-top: 10px;
+    margin-left: 19.5%;
+    max-width: 930px;
+    background-color: white;
+    border: 1px solid #D3D3D3;
+}
+#picOne {
+    
+}
+
+#picTwo {
+    height: 200px;
+    width: 200px;
+}
+
+#picThree {
+    height: 200px;
+    width:200px;
+}
+
+#picFour {
+    height: 200px;
+    width:200px;
+}
+
+.imageContainer {
+    max-width: 600px;
+}
+
+.hangman {
+    height: 200px;
+    width:200px;
+    overflow: hidden;
+    float: left;
+    margin-top: 20px;
+}
+
+.rutgers {
+    height: 200px;
+    width:200px;
+    overflow: none;
+    float: left;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.tech {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    float: left;
+    margin-top: 60px;
+}
+
+.laptop {
+    height: 200px;
+    width:200px;
+    overflow: hidden;
+    float: left;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+#text1 {
+    position: absolute;
+    padding: 1px 70px 1px 70px;
+    margin-top: 130px;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+}
+
+#text2 {
+    position: absolute;
+    padding: 1px 40px 1px 40px;
+    margin-top: 130px;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+}
+#bodyContent3 {
+    line-height: 3em;
+    padding: 10px 10px 600px 30px;
+    margin-top: 10px;
+    margin-left: 19.5%;
+    max-width: 930px;
+    background-color: white;
+    border: 1px solid #D3D3D3;
+}
+.portfolio2 {
+    padding:0px;
+    color: #4aaaa5;
+    font-family: 'Georgia';
+    font-size: 25px;
+}
+
+.hover:hover {
+    background-color: whitesmoke;
+}
+
+
+@media only screen and (max-width:640px){
+     [class*="col-"] {
+        width: 100%;
+    }
+    html{
+        height: 100%;
+    }
+    #myName{
+        position: relative;
+        width: 100%;
+        max-width: none;
+        font-size: 14pt;
+        text-align: center;
+        left: 0;
+    }
+    .navButtons{
+        align-content: center;
+        float: left;
+        margin-left: 150px;
+        margin-top: 0px;
+        line-height: 2em;
+    }
+    .headerMain{
+        position: sticky;
+        height: 30px;
+    }
+    #bodyContent2{
+        float: left;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: 530px;
+        width: 450px;
+    }
+    #bodyContent3{
+        float: left;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: 540px;
+        width: 450px;
+    }
+    #bodyContent{
+        float: left;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: 530px;
+        width: 450px;
+    }
+    
+    textarea{
+        width: 300px;
+        float: left;
+    }
+    input{
+        width: 300px;
+    }
+    #button{
+        clear: both;
+        float: left;
+        margin-top: 10px;
+    }
+    svg{
+        width: 310px;
+    }
+    .aboutMe{
+        font-size: 14pt;
+    }
+    #myBio{
+        font-size: 10pt;
+        line-height: 1.5em;
+    }
+    .hangman {
+    height: 200px;
+    width:200px;
+    overflow: hidden;
+    float: left;
+    margin-top: 20px;
+}
+
+.rutgers {
+    height: 200px;
+    width:220px;
+    overflow: none;
+    clear: both;
+    float: left;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.tech {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    clear: both;
+    float: left;
+    margin-top: 60px;
+}
+
+.laptop {
+    height: 200px;
+    width:200px;
+    overflow: hidden;
+    float: left;
+    margin-top: 60px;
+    clear: both;
+    margin-left: 0px;
+}
+}
+@media only screen and (max-width:768px){
+    .navButtons{
+        margin-left: 16%; 
+        line-height: 8em;
+        font-size: 10pt;
+    }
+    #myName{
+        float: left;
+        margin: 0;
+        top: 30px;
+        left: 0;
+        height: 50px;
+        font-size: 16pt;
+    }
+    .headerMain{
+        height: 0px;
+    }
+    #bodyContent{
+        margin-right: 20px;
+        margin-left:20px;
+        height: 442px;
+    }
+    #bodyContent2{
+        margin-right: 20px;
+        margin-left:20px;
+        height: 442px;
+    }
+    #bodyContent3{
+        margin-right: 20px;
+        margin-left:20px;
+        height: 100px;
+    }
+    #myBio{
+        font-size:10pt;
+        line-height: 2em;
+    }
+    svg{
+        width: 550px;
+    }
+    .aboutMe{
+        font-size: 16pt;
+    }
+    textarea{
+        width: 600px;
+        float: left;
+    }
+    input{
+        width: 600px;
+    }
+    #button{
+        clear: both;
+        float: left;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<!--Link to css/reset.css-->
+    <!--<link type="text/css" href="assets/css/reset.css" rel="stylesheet"/>-->
+    <link type="text/css" href="assets/styles/main.css" rel="stylesheet"/>
+    <title>My Portfolio</title>
+<!--Header--> 
+    <div class="headerMain">
+        <head class="headerContent">
+            <h1 id="myName">Sasank<br>Ganapathiraju</h1>
+            <div  class="navButtons">
+                <a id="about" class="hover" href="index.html"><p>About</p></a>
+                <a id="contact" class="hover" href="#"><p> Contact </p></a>
+                <a id="Portfolio" class="hover" href="portfolio.html"><p>Portfolio</p></a>
+            </div>
+        </head>
+    </div>
+<!--Body-->
+    <div class="bodyMain">
+        <body>
+            <section id="bodyContent2">
+                <h2 class="contact">Contact</h2>
+                <svg height="30" width="960">
+                    <line x1="0" y1="0" x2="900" y2="0" style="stroke:rgb(211,211,211);stroke-width:4" />
+                </svg>
+                <!--Contact Form-->
+                    <form class="myForm">
+                        <!--FullName-->
+                            <label for="fName">Name</label><br>
+                            <input type="text" id="fName" name="fullName" placeholder="John Smith"/>
+                            <br>
+                        <!--Email-->
+                            <label for="email">Email</label>
+                            <br>
+                            <input type="text" id="email" name="email" placeholder="example@gmail.com"/>
+                            <br>
+                        <!--Message-->
+                            <label for="message">Message</label>
+                            <br>
+                            <textarea id="message" name="message" placeholder="Your Message" style="height:100px"></textarea>
+                        <!--Submit-->
+                            <input id="button" type="submit" value="Submit">
+                    </form>
+            </section>
+        </body>
+    </div>
+<!--StickyFooter-->
+    <div class="footer">
+        <footer>
+            <p id="copyright">Copyright © </p>
+        </footer>
+    </div>
+</html>
